@@ -77,7 +77,7 @@ Fields with errors are highlighted
 
 Example: (video with example of how issue can be replicated and how it looks)
 
-**Issue No.2:** - User can complete registration with invalid email address
+**Issue No.2:** User can complete registration with invalid email address
 _What happened?_ 
 If a user has provided a valid username and password, registration can be completed with an invalid email address (e.g., example@domain.1). The field validation passes despite the invalid domain ending (e.g., with a numeric value (.1, .23456, etc.) or just 1 character( .c, .k, .i, etc.))
 
@@ -95,7 +95,7 @@ The field validation fails if an invalid email address has been provided
 
 Example: (video with example of how issue can be replicated and how it looks)
 
-**Issue No.3:** Title: User can sign up multiple times using same data
+**Issue No.3:** User can sign up multiple times using same data
 _What happened?_ 
 The user can sign up multiple times with the same data (username and/or email)
 

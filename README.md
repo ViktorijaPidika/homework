@@ -1,6 +1,6 @@
 Task 1: Based on requirements create 3 manual test cases
 
-**TC No 1 - happy path**
+**TC No 1 - happy path:**
 Verify that a field validation and sign-up is successful with a valid username, email, and password
  
 _Test steps:_
@@ -21,7 +21,7 @@ _Expected result:_
   3. The success message "You have registered successfully!" has been displayed
 
 
-**TC No 2 - negative case**
+**TC No 2 - negative case:**
 Verify that a field validation and sign-up fails with an invalid username, email, and password
 
 _Test steps:_
@@ -42,7 +42,7 @@ _Expected result:_
   3. Error messages under the fields with the incorrect input are returned
 
 
-**TC No 3 - edge case** 
+**TC No 3 - edge case:** 
 Verify that a field validation and sign-up fails with an incomplete user’s data
 
 _Test steps:_

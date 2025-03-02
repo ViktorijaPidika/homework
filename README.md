@@ -148,20 +148,20 @@ Task 5: Anything You would improve/specify more in the existing requirements
 Task 6: What else can be tested?
 
   1. Different variations of already noted test cases:
-    1.1. For the happy path (TC No 1) - if the system allows to input from - to a specific amount of characters, check if validation passes when 1)min, 2) in between, 3) max amount of characters are entered into the input field. This would apply to both the username and the password fields since various inputs are possible.
-    1.2. For the negative case (TC No 2) - so many different options are possible - try entering only spaces, try entering characters that are not allowed, or use only part of the required characters (in the password’s case). It would be crucial to understand that functionality does not break when the user makes a mistake within the sign-up process, since this is a very possible scenario in real life.
-    1.3. For the edge case (TC No 3) - trying leaving empty different fields, at first each of fields separately and then combining multiple
-  2. Check if the design meets requirements
-  3. Verify if data is successfully saved and correctly stored in the database and/or internal tools when submitting the form. In these tests, it could also be checked if no data is saved when the user had an unsuccessful sign-up (or saved if such is system specifications) 
-  4. Check if no errors are thrown when
-    4.1. reloading the page when user has opened page and has not yet interacted with any of the fields
-    4.2. reloading the page when user has started interacting with fields
-    4.3. submitting the form
-    4.4. reloading the page right after the form submission 
-  5. Check how the component works on different screen sizes and in different browsers, on different devices
-  6. Perform accessibility tests: 1) if the user can navigate to the fields with keyboards only, 2) if the user can fully interact with the form when using accessibility tools (e.g., voice over)
-  7. Check how the page works and if the sign-up request does not fail in different network speeds (by throttling the network in the dev tools)
-  8. Performance tests
+     1.1. For the happy path (TC No 1) - if the system allows to input from - to a specific amount of characters, check if validation passes when 1)min, 2) in between, 3) max amount of characters are entered into the input field. This would apply to both the username and the password fields since various inputs are possible.
+     1.2. For the negative case (TC No 2) - so many different options are possible - try entering only spaces, try entering characters that are not allowed, or use only part of the required characters (in the password’s case). It would be crucial to understand that functionality does not break when the user makes a mistake within the sign-up process, since this is a very possible scenario in real life.
+     1.3. For the edge case (TC No 3) - trying leaving empty different fields, at first each of fields separately and then combining multiple
+  3. Check if the design meets requirements
+  4. Verify if data is successfully saved and correctly stored in the database and/or internal tools when submitting the form. In these tests, it could also be checked if no data is saved when the user had an unsuccessful sign-up (or saved if such is system specifications) 
+  5. Check if no errors are thrown when
+     4.1. reloading the page when user has opened page and has not yet interacted with any of the fields
+     4.2. reloading the page when user has started interacting with fields
+     4.3. submitting the form
+     4.4. reloading the page right after the form submission 
+  7. Check how the component works on different screen sizes and in different browsers, on different devices
+  8. Perform accessibility tests: 1) if the user can navigate to the fields with keyboards only, 2) if the user can fully interact with the form when using accessibility tools (e.g., voice over)
+  9. Check how the page works and if the sign-up request does not fail in different network speeds (by throttling the network in the dev tools)
+  10. Performance tests
 
 Note:  What kind of tests would be performed depends on what was done within the development process - was it a newly added component/functionality or just a minor update? In the case of a new functionality, in-depth tests would be required, and all tests listed above should be performed, while in the case of minor updates - ensuring it has been updated according to the requirements and has not affected existing functionality (so only a few of the tests mentioned above might be performed). 
 

@@ -16,9 +16,10 @@ _Test data:_
   3. Password: 8 characters where at least 1 uppercase, 1 lowercase, and 1 number
 
 _Expected result:_
-  1. The field validation has passed
-  2. The user has been redirected to the Home Page
-  3. The success message "You have registered successfully!" has been displayed
+  1. User has successfully signed-up
+  2. The field validation has passed
+  3. The user has been redirected to the Home Page
+  4. The success message "You have registered successfully!" has been displayed
 
 
 **TC No 2 - negative case:**

@@ -78,6 +78,7 @@ Fields with errors are highlighted
 Example: (video with example of how issue can be replicated and how it looks)
 
 **Issue No.2:** User can complete registration with invalid email address
+
 _What happened?_ 
 If a user has provided a valid username and password, registration can be completed with an invalid email address (e.g., example@domain.1). The field validation passes despite the invalid domain ending (e.g., with a numeric value (.1, .23456, etc.) or just 1 character( .c, .k, .i, etc.))
 
@@ -90,7 +91,7 @@ _How to replicate it?_
   6. Enter same password in the “Confirm” password field
   7. Click on the submit button
 
-_What was expected? _
+_What was expected?_
 The field validation fails if an invalid email address has been provided
 
 Example: (video with example of how issue can be replicated and how it looks)
@@ -99,7 +100,7 @@ Example: (video with example of how issue can be replicated and how it looks)
 _What happened?_ 
 The user can sign up multiple times with the same data (username and/or email)
 
-_How to replicate it? _
+_How to replicate it?_
   1. Open https://auth-home-task.vercel.app/register
   2. Wait till the page has been fully loaded
   3. Fill the form with the valid user's data
@@ -110,7 +111,7 @@ _How to replicate it? _
   7. Click on the submit button
     What will happen? - User will again be forwarded to the home page and success message will be returned
 
-_What was expected? _
+_What was expected?_
 Error message that user with such username and/or email address already exists
 Example: (video with example of how issue can be replicated and how it looks)
 

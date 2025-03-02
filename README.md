@@ -51,22 +51,23 @@ _Test steps:_
   2. Submit form
 
 _Test data:_ 
-  1.Username: in between 3-20 alphanumeric characters
+ 1. Username: in between 3-20 alphanumeric characters
 
 _Expected result:_
-The sign-up process is unsuccessful, and user remains on the same page
-The field validation fails
-Error messages under empty fields are returned
+ 1. The sign-up process is unsuccessful, and user remains on the same page
+ 2. The field validation fails
+ 3. Error messages under empty fields are returned
 
 -----------------------------------------------------------------------------------------------------------------------
 
 Task 2: Report at least 1 Bug You have found during the testing
 
 **Issue No.1:** Fields with errors are not highlighted
-_What happened? _
+
+_What happened?_
 The fields with errors are not highlighted 
 
-_How to replicate it? _
+_How to replicate it?_
   1. Open https://auth-home-task.vercel.app/register
   2. Wait till the page has been fully loaded
   3. Leave all fields empty and click on the submit button

@@ -111,8 +111,9 @@ _How to replicate it?_
   7. Click on the submit button
     What will happen? - User will again be forwarded to the home page and success message will be returned
 
-_What was expected?_
+_What was expected?_ 
 Error message that user with such username and/or email address already exists
+
 Example: (video with example of how issue can be replicated and how it looks)
 
 -----------------------------------------------------------------------------------------------------------------------
